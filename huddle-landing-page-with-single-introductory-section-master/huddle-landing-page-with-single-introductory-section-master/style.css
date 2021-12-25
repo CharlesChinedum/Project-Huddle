@@ -1,0 +1,105 @@
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: rgb(118, 56, 189);
+}
+
+.logo-svg {
+    width: 130px;
+    padding-bottom: 38px;
+    padding-right: 153px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mockups {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.container-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    color: aliceblue;
+    font-size: 19px;
+    font-family: Arial;
+    letter-spacing: 0.5px;
+    padding-left: 50px;
+    word-spacing: 1px;
+}
+
+.btn-group {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.btn {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: aliceblue;
+    color: rgb(113, 24, 196);
+}
+
+.btn:hover {
+    background-color: rgb(238, 117, 137);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-facebook {
+    padding-right: 13px;
+    font-size: 30px;
+}
+
+.fa-facebook:hover {
+    color: salmon;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    padding-right: 13px;
+    font-size: 30px;
+}
+
+.fa-twitter:hover {
+    color: salmon;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    padding-right: 13px;
+    font-size: 30px;
+}
+
+.fa-instagram:hover {
+    color: salmon;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(images/bg-mobile.svg);
+    }
+    .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    }
+    .btn {
+        text-align: center;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .mockups {
+        width: 530px;
+        float: left;
+        padding-left: 50px;
+    }
+    .logo-svg {
+        width: 200px;
+        padding-left: 50px;
+    }
+    .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    }
+    .container-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+    .container-community {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .container-paragraph {
+        overflow-wrap: break-word !important;
+    }
+    .icons {
+    display: flex;
+    padding: 55px;
+    padding-top: 155px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.fa-facebook {
+    padding-right: 12px;
+}
+
+.fa-twitter {
+    padding-right: 12px;
+}
+
+.fa-instagram {
+    padding-right: 12px;
+}
+
+.btn-group {
+    padding-top: 0;
+    padding-left: 50px;
+}
+}
